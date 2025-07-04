@@ -8,6 +8,10 @@ public class Titulo {
     private int totalDeAvaliacoes;
     private int duracaoEmMinutos;
 
+    public double pegaMedia(){
+        return somaDasAvaliacoes / totalDeAvaliacoes;
+    }
+
     public String getNome() {
         return nome;
     }
