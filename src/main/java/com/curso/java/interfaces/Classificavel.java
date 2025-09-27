@@ -1,4 +1,4 @@
-package com.curso.java.calculos;
+package com.curso.java.interfaces;
 
 public interface Classificavel {
 

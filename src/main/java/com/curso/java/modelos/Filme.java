@@ -1,6 +1,6 @@
 package com.curso.java.modelos;
 
-import com.curso.java.calculos.Classificavel;
+import com.curso.java.interfaces.Classificavel;
 
 public class Filme extends Titulo implements Classificavel {
     private String diretor;
@@ -16,5 +16,10 @@ public class Filme extends Titulo implements Classificavel {
     @Override
     public int getClassificacao() {
         return (int) (pegaMedia()/2);
+    }
+
+    @Override
+    public String toString() {
+        return "Filme{" + "diretor=" + diretor + '}';
     }
 }

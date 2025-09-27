@@ -1,5 +1,7 @@
 package com.curso.java.calculos;
 
+import com.curso.java.interfaces.Classificavel;
+
 public class FiltroRecomendacao {
     private String recomendacao;
 

@@ -1,6 +1,6 @@
 package com.curso.java.modelos;
 
-import com.curso.java.calculos.Classificavel;
+import com.curso.java.interfaces.Classificavel;
 
 public class Episodio implements Classificavel {
     private int numero;
